@@ -1,6 +1,8 @@
 ## Introduction
 
-If you have a multi-goroutine program where each goroutine uses Lumberjack for log rotation, the official repo may experience a memory leak. A fix was proposed years ago, but the pull request was never accepted. As a result, I'm creating my own repo to resolve this issue more quickly.
+If you have a multi-goroutine program where each goroutine uses Lumberjack for log rotation, the official repo will experience a memory leak for sure. A fix was proposed years ago, but the pull request was never accepted. 
+
+As a result, I'm creating my own repo to resolve this issue more quickly.
 
 ## Usage
 
